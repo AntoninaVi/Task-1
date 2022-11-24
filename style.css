@@ -247,6 +247,7 @@ body {
     align-items: center;
     justify-content: left;
     border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 17px;
     margin-bottom: 30px;
 }
 @media all and (max-width: 570px) {
@@ -277,7 +278,7 @@ body {
     font-size: 18px;
     line-height: 60px;
     color: #ffffff;
-    padding: 4px 18px;
+    padding: 2px 15px;
     margin-right: 26px;
 }
 .works-article__title {
