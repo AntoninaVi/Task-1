@@ -42,6 +42,10 @@ body {
 .nav-item:last-child {
     margin-right: 0;
 }
+.nav-item:hover {
+    color: #ff6464;
+    transition: ease-in-out 0.4s;
+}
 .main {
     display: flex;
     justify-content: center;
@@ -107,13 +111,20 @@ body {
     padding: 16px 20px;
     cursor: pointer;
 }
+.main-button:hover {
+    transition: ease-in-out 0.5s;
+    background-color: #889396;
+}
 
-.main-img {
-    max-width: 100%;
+.main-img img {
+    min-width: 243px;
+    max-height: 243px;
+    width: auto;
 }
 .posts {
     background: #edf7fa;
     padding: 1.5em 9.1em;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -133,8 +144,12 @@ body {
     }
 }
 .posts-title {
+    font-style: normal;
     font-weight: 400;
     font-size: 22px;
+    line-height: 60px;
+    color: #21243d;
+    text-decoration: none;
     display: flex;
     align-items: flex-end;
 }
@@ -186,12 +201,16 @@ body {
     font-size: 26px;
     line-height: 38px;
     margin-bottom: 38px;
+    max-width: 374px;
+    word-break: break-word;
 }
 .post-paragraph {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    word-break: break-word;
+    max-width: 368px;
 }
 .post-paragraph:first-child {
     font-weight: 400;
@@ -215,6 +234,8 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 60px;
+    color: #21243d;
+    text-decoration: none;
 }
 @media all and (max-width: 570px) {
     .works-paragraph {
@@ -224,6 +245,7 @@ body {
 .works-article {
     display: flex;
     align-items: center;
+    justify-content: left;
     border-bottom: 1px solid #e0e0e0;
     margin-bottom: 30px;
 }
@@ -250,19 +272,19 @@ body {
 
 .works-article__content span {
     background: #142850;
-    border-radius: 16px;
+    border-radius: 17px;
     font-weight: 900;
     font-size: 18px;
     line-height: 60px;
     color: #ffffff;
-    padding: 5px 10px;
+    padding: 4px 18px;
     margin-right: 26px;
 }
 .works-article__title {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    margin: 0;
+    margin-bottom: -8px;
 }
 .works-article__name {
     font-style: normal;
@@ -291,6 +313,7 @@ body {
 .social__link {
     margin-right: 35px;
 }
+
 .social__link:last-child {
     margin-right: 0;
 }
@@ -347,7 +370,7 @@ body {
 @media all and (max-width: 360px) {
     .menu__btn {
         top: 2.5em;
-        left: 75%;
+        left: 88%;
     }
 }
 .menu__btn span,
@@ -413,7 +436,7 @@ body {
 @media all and (max-width: 360px) {
     .menu__box {
         top: -2em;
-        left: 18%;
+        left: 32%;
     }
 }
 .menu__box .nav-item {
