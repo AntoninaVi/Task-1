@@ -229,15 +229,18 @@ body {
     margin-bottom: 20px;
 }
 .works {
-    width: 100%;
-    display: grid;
-    justify-content: center;
     margin-bottom: 9.1em;
 }
 @media screen and (max-width: 920px) {
     .works {
         margin-bottom: 2em;
     }
+}
+.works-content {
+    max-width: 100%;
+    width: 858px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .works-paragraph {
     font-style: normal;
@@ -259,6 +262,8 @@ body {
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 17px;
     margin-bottom: 30px;
+    max-width: 858px;
+    width: 100%;
 }
 @media all and (max-width: 570px) {
     .works-article {
@@ -280,7 +285,6 @@ body {
         margin-bottom: 17px;
     }
 }
-
 .works-article__content span {
     background: #142850;
     border-radius: 17px;
