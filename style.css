@@ -17,8 +17,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 10px;
+    overflow-x: hidden;
 }
-
 .nav-bar {
     display: block;
     text-align: end;
@@ -117,9 +117,11 @@ body {
 }
 
 .main-img img {
-    min-width: 243px;
-    max-height: 243px;
+    max-width: 243px;
+    height: 243px;
     width: auto;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .posts {
     background: #edf7fa;
@@ -184,7 +186,8 @@ body {
     background: #ffffff;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
-    max-width: 420px;
+    width: 420px;
+    max-width: 100%;
 }
 .posts-post:first-child {
     margin-right: 20px;
@@ -219,9 +222,9 @@ body {
     margin-bottom: 20px;
 }
 .works {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    display: grid;
+    justify-content: center;
     margin-bottom: 9.1em;
 }
 @media screen and (max-width: 920px) {
