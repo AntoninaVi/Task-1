@@ -260,7 +260,7 @@ body {
     align-items: center;
     justify-content: left;
     border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 17px;
+    padding-bottom: 30px;
     margin-bottom: 30px;
     max-width: 858px;
     width: 100%;
@@ -277,6 +277,7 @@ body {
 .works-article__img {
     margin-right: 20px;
     max-width: 100%;
+    width: 246px;
 }
 @media all and (max-width: 570px) {
     .works-article__img {
@@ -299,7 +300,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: -8px;
+    margin: 0 0 16px 0;
 }
 .works-article__name {
     font-style: normal;
@@ -307,12 +308,15 @@ body {
     font-size: 20px;
     line-height: 29px;
     color: #8695a4;
+    margin: 0 0 17px 0;
 }
 .works-article__paragraph {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     max-width: 507px;
+    margin: 0;
+    
 }
 @media all and (max-width: 570px) {
     .works-article__paragraph {
